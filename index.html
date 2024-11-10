@@ -3,27 +3,48 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./style.css" />
     <title>Super Mario Bros</title>
   </head>
   <body>
-    <img src="./assets/logo.png" alt="Logo Super Mario Bros" />
+    <div class="main">
+      <div class="box-principal">
+        <img src="./assets/logo.png" alt="Logo Super Mario Bros" class="logo" />
 
-    <p>
-      🔧 Encanadores Mario & Luigi - Resolvendo seus problemas hidráulicos com
-      estilo!
-    </p>
+        <p>
+          🔧 Encanadores Mario & Luigi - Resolvendo seus problemas hidráulicos
+          com estilo!
+        </p>
+        <p>
+          Você já se encontrou em uma situação de emergência com encanamento?
+          Vazamentos inesperados, canos entupidos ou torneiras que não param de
+          pingar? Não se preocupe, porque estamos aqui para salvar o dia!
+          Apresentamos a vocês os encanadores mais famosos do Reino dos
+          Cogumelos - Mario e Luigi!
+        </p>
 
-    <p>
-      Você já se encontrou em uma situação de emergência com encanamento?
-      Vazamentos inesperados, canos entupidos ou torneiras que não param de
-      pingar? Não se preocupe, porque estamos aqui para salvar o dia!
-      Apresentamos a vocês os encanadores mais famosos do Reino dos Cogumelos -
-      Mario e Luigi!
-    </p>
+        <button class="btn-contact">Entre em contato 👨‍🔧</button>
+      </div>
 
-    <button>Entre em contato 👨‍🔧</button>
+      <div>
+        <img src="./assets/mario.png" alt="Mario" class="img-mario" />
+      </div>
+    </div>
 
-    <video src="./assets/video.mp4" muted autoplay controls></video>
+    <div class="box-video">
+      <video
+        src="./assets/video.mp4"
+        autoplay
+        loop
+        muted
+        id="background-video"
+      ></video>
+    </div>
   </body>
 </html>
