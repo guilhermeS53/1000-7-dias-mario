@@ -1,5 +1,55 @@
 * {
-  margin: 0;
   padding: 0;
+  margin: 0;
   box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  height: 100vh;
+}
+
+video {
+  width: 100vw;
+}
+
+p {
+  color: #ffffff;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 100px;
+  height: 100vh;
+}
+
+.logo {
+  height: 200px;
+}
+
+.img-mario {
+  height: 400px;
+}
+
+.btn-contact {
+  color: #ffffff;
+  background-color: #c51111;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.box-principal {
+  width: 40%;
+}
+
+.box-video {
+  position: fixed;
+  z-index: -1;
+  top: 0;
 }
