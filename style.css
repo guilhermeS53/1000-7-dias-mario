@@ -70,3 +70,10 @@ p {
     rgba(10, 12, 16, 0.99) 85%
   );
 }
+
+.link-whatsapp img {
+  height: 50px;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+}
