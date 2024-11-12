@@ -13,6 +13,14 @@
     <title>Super Mario Bros</title>
   </head>
   <body>
+    <div class="mask-form"></div>
+    <div class="header">
+      <img src="./assets/logo-header.png" alt="Logo Header Mario" />
+      <a href="">Home</a>
+      <a href="">Nossos Serviços</a>
+      <a href="">Fale Conosco</a>
+    </div>
+
     <div class="main">
       <div class="box-principal">
         <img src="./assets/logo.png" alt="Logo Super Mario Bros" class="logo" />
@@ -53,5 +61,33 @@
     <a href="https://wa.me/55119999999" target="_blank" class="link-whatsapp">
       ><img src="./assets/whatsapp.png" alt="WhatsApp Logo"
     /></a>
+
+    <form action="" class="form-contact">
+      <label for="nome">Nome: </label>
+      <input
+        type="text"
+        id="nome"
+        name="nome"
+        placeholder="Insira seu Nome"
+        required
+      />
+      <label for="nome">Telefone: </label>
+      <input
+        type="text"
+        id="telephone"
+        name="telephone"
+        placeholder="Insira seu Telefone"
+        required
+      />
+      <label for="nome">Descrição: </label>
+      <textarea
+        type="text"
+        id="description"
+        name="description"
+        placeholder="Descreva o(s) Problema(s)..."
+        required
+      ></textarea>
+      <button class="btn-contact">Enviar Mensagem</button>
+    </form>
   </body>
 </html>
