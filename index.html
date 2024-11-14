@@ -13,7 +13,7 @@
     <title>Super Mario Bros</title>
   </head>
   <body>
-    <div class="mask-form"></div>
+    <div class="mask-form" onclick="hiddenForm()"></div>
     <div class="header">
       <img src="./assets/logo-header.png" alt="Logo Header Mario" />
       <a href="">Home</a>
@@ -39,7 +39,9 @@
           Cogumelos: Mario e Luigi!
         </p>
 
-        <button class="btn-contact">Entre em contato 👨‍🔧</button>
+        <button class="btn-contact" onclick="buttonClick()">
+          Entre em contato 👨‍🔧
+        </button>
       </div>
 
       <div>
@@ -62,7 +64,12 @@
       ><img src="./assets/whatsapp.png" alt="WhatsApp Logo"
     /></a>
 
-    <form action="" class="form-contact">
+    <form
+      class="form-contact"
+      action="https://formcarry.com/s/pfBssin9Bnw"
+      method="POST"
+      enctype="multipart/form-data"
+    >
       <label for="nome">Nome: </label>
       <input
         type="text"
@@ -73,7 +80,7 @@
       />
       <label for="nome">Telefone: </label>
       <input
-        type="text"
+        type="tel"
         id="telephone"
         name="telephone"
         placeholder="Insira seu Telefone"
@@ -87,7 +94,9 @@
         placeholder="Descreva o(s) Problema(s)..."
         required
       ></textarea>
-      <button class="btn-contact">Enviar Mensagem</button>
+      <button class="btn-contact" type="submit">Enviar Mensagem</button>
     </form>
   </body>
+
+  <script src="./script.js"></script>
 </html>
