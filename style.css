@@ -93,11 +93,13 @@ p {
 }
 
 .header {
-  position: fixed;
+  position: relative;
+  top: 20px;
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 50px;
-  margin: 30px;
+  margin: 40px;
 }
 
 .header img {
