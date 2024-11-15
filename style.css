@@ -168,7 +168,8 @@ textarea {
 
   .main {
     flex-direction: column;
-    padding: 10px;
+    padding: 5px;
+    margin: 5px;
   }
 
   .box-principal {
@@ -178,8 +179,8 @@ textarea {
   }
 
   .header {
-    /* margin: 10px; */
     display: flex;
+    margin: 15px;
     align-items: center;
     justify-content: center;
   }
@@ -189,6 +190,6 @@ textarea {
   }
 
   .header a {
-    font-size: 14px;
+    font-size: 15px;
   }
 }
